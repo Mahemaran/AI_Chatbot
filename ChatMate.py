@@ -3,7 +3,7 @@ import openai
 import os
 
 # Streamlit app configuration
-st.set_page_config(page_title="ChatMate", layout="wide")
+st.set_page_config(page_title="ChatMate", page_icon="💬", layout="wide")
 
 st.title("Chatbot like ChatGPT 💬")
 st.write("Powered by OpenAI GPT-4")
