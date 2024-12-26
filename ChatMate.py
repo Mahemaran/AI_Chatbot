@@ -20,7 +20,7 @@ for msg in st.session_state.messages:
 # User input
 user_input = st.chat_input("Type your message here...")
 if not api_key:
-    st.sidebar.write("Please enter your API key.")
+    st.sidebar.error("Please enter your API key.")
 else:
     if user_input:
         # Add user message to chat history
